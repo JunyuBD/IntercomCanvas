@@ -24,6 +24,7 @@ func main() {
 			http.Error(w, "Error reading request body", http.StatusInternalServerError)
 			return
 		}
+		// this is 0dsgjpdi
 		defer r.Body.Close()
 
 		// Print the request body
